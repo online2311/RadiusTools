@@ -5,9 +5,9 @@ import six
 from twisted.python import log
 from twisted.internet import protocol
 from twisted.internet import reactor, defer
-from txradius.radius import packet
-from txradius.ext import ikuai
-from txradius import message
+from radiustools.radius import packet
+from radiustools.ext import ikuai
+from radiustools import message
 
 
 class CoAClient(protocol.DatagramProtocol):

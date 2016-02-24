@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 #coding=utf-8
 import struct
-from txradius.radius import  tools
+from radiustools.radius import  tools
 
 IK_RAD_PKG_VER            = 0x0001
 IK_RAD_PKG_AUTH           = 0x0001

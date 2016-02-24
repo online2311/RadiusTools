@@ -2,9 +2,9 @@
 
 
 from setuptools import setup, find_packages
-import txradius
+import radiustools
 
-version = txradius.__version__
+version = radiustools.__version__
 
 install_requires = [
     'six>=1.8.0',
@@ -15,11 +15,11 @@ install_requires_empty = []
 package_data={}
 
 
-setup(name='txradius',
+setup(name='radiustools',
       version=version,
-      author='jamiesun',
-      author_email='jamiesun.net@gmail.com',
-      url='https://github.com/talkincode/txradius',
+      author='ZhangJing',
+      author_email='ZhangJing@outlook.com',
+      url='https://github.com/online2311/RadiusTools',
       license='GPL',
       description='RADIUS tools',
       long_description=open('README.md').read(),

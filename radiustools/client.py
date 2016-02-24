@@ -4,8 +4,8 @@
 from twisted.python import log
 from twisted.internet import protocol
 from twisted.internet import reactor, defer
-from txradius.radius import packet
-from txradius import message
+from radiustools.radius import packet
+from radiustools import message
 import six
 import time
 

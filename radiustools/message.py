@@ -1,15 +1,15 @@
 #!/usr/bin/env python
 #coding=utf-8
-from txradius.radius.packet import tools
-from txradius.radius.packet import AuthPacket
-from txradius.radius.packet import AcctPacket
-from txradius.radius.packet import CoAPacket
-from txradius.radius.packet import AccessRequest
-from txradius.radius.packet import AccessAccept
-from txradius.radius.packet import AccountingRequest
-from txradius.radius.packet import AccountingResponse
-from txradius.radius.packet import CoARequest
-from txradius.mschap import mschap,mppe
+from radiustools.radius.packet import tools
+from radiustools.radius.packet import AuthPacket
+from radiustools.radius.packet import AcctPacket
+from radiustools.radius.packet import CoAPacket
+from radiustools.radius.packet import AccessRequest
+from radiustools.radius.packet import AccessAccept
+from radiustools.radius.packet import AccountingRequest
+from radiustools.radius.packet import AccountingResponse
+from radiustools.radius.packet import CoARequest
+from radiustools.mschap import mschap,mppe
 import time
 import binascii
 import datetime

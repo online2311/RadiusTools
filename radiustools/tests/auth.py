@@ -1,7 +1,7 @@
 import sys,os
 sys.path.insert(0, "../../")
-from txradius import message, client
-from txradius.radius import dictionary,packet
+from radiustools import message, client
+from radiustools.radius import dictionary,packet
 from twisted.internet import reactor, defer
 from twisted.python import log
 import functools
